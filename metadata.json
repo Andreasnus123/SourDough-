@@ -1,0 +1,6 @@
+{
+  "name": "Sourdough Hydration Calculator",
+  "description": "Calculate precise flour, liquid, preferments, and moisture from enriched ingredients using Baker's Percentages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

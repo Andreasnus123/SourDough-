@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered bread boule: circle of radius 24 around (54,54) -->
+    <path
+        android:fillColor="#F4D3A1"
+        android:pathData="M54,30 C67.25,30 78,40.75 78,54 C78,67.25 67.25,78 54,78 C40.75,78 30,67.25 30,54 C30,40.75 40.75,30 54,30 Z" />
+    
+    <!-- Shading of the loaf base, to give 3D depth -->
+    <path
+        android:fillColor="#DF9F5C"
+        android:pathData="M31.2,58 C32.7,68.5 42,76.5 54,76.5 C66,76.5 75.3,68.5 76.8,58 C74.2,60.8 69.8,62.5 54,62.5 C38.2,62.5 33.8,60.8 31.2,58 Z" />
+
+    <!-- Bread scoring slash (crescent scar) -->
+    <path
+        android:fillColor="#9F612B"
+        android:pathData="M40,54 C40,43.5 48.5,38 54,38 C52,43 52,50 54,54 C56,58 56,65 54,70 C48.5,70 40,64.5 40,54 Z"
+        android:strokeColor="#7B4214"
+        android:strokeWidth="1" />
+
+    <!-- Wheat spike decorative ornament (bottom-right overlap) -->
+    <path
+        android:fillColor="#FFD899"
+        android:pathData="M70,70 L72,66 L75,68 Z" />
+    <path
+        android:fillColor="#FFD899"
+        android:pathData="M73,73 L75,69 L78,71 Z" />
+    <path
+        android:fillColor="#FFD899"
+        android:pathData="M71,76 L75,74 L78,77 Z" />
+    <path
+        android:strokeColor="#FFD899"
+        android:strokeWidth="1.5"
+        android:pathData="M65,65 L80,80" />
+</vector>
